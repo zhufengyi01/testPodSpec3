@@ -15,11 +15,10 @@
 		38FD79791C8542B300EB2130 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 38FD79771C8542B300EB2130 /* LaunchScreen.storyboard */; };
 		38FD79841C8542B300EB2130 /* testPodSpec3Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 38FD79831C8542B300EB2130 /* testPodSpec3Tests.m */; };
 		38FD798F1C8542B300EB2130 /* testPodSpec3UITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 38FD798E1C8542B300EB2130 /* testPodSpec3UITests.m */; };
-		38FD79A51C85467600EB2130 /* 新泰和APP说明0.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 38FD799D1C85467600EB2130 /* 新泰和APP说明0.jpg */; };
 		38FD79A61C85467600EB2130 /* 新泰和APP说明0.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 38FD79A01C85467600EB2130 /* 新泰和APP说明0.jpg */; };
-		38FD79A71C85467600EB2130 /* 新泰和APP说明0.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 38FD79A21C85467600EB2130 /* 新泰和APP说明0.jpg */; };
-		38FD79A81C85467600EB2130 /* 新泰和APP说明0.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 38FD79A41C85467600EB2130 /* 新泰和APP说明0.jpg */; };
 		38FD79AB1C8546BC00EB2130 /* test.m in Sources */ = {isa = PBXBuildFile; fileRef = 38FD79AA1C8546BC00EB2130 /* test.m */; };
+		38FD79AD1C8547E400EB2130 /* test.plist in Resources */ = {isa = PBXBuildFile; fileRef = 38FD79AC1C8547E400EB2130 /* test.plist */; };
+		38FD79AF1C8547F300EB2130 /* test.xib in Resources */ = {isa = PBXBuildFile; fileRef = 38FD79AE1C8547F300EB2130 /* test.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -56,12 +55,11 @@
 		38FD798A1C8542B300EB2130 /* testPodSpec3UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = testPodSpec3UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		38FD798E1C8542B300EB2130 /* testPodSpec3UITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = testPodSpec3UITests.m; sourceTree = "<group>"; };
 		38FD79901C8542B300EB2130 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		38FD799D1C85467600EB2130 /* 新泰和APP说明0.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "新泰和APP说明0.jpg"; sourceTree = "<group>"; };
 		38FD79A01C85467600EB2130 /* 新泰和APP说明0.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "新泰和APP说明0.jpg"; sourceTree = "<group>"; };
-		38FD79A21C85467600EB2130 /* 新泰和APP说明0.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "新泰和APP说明0.jpg"; sourceTree = "<group>"; };
-		38FD79A41C85467600EB2130 /* 新泰和APP说明0.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "新泰和APP说明0.jpg"; sourceTree = "<group>"; };
 		38FD79A91C8546BC00EB2130 /* test.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = test.h; sourceTree = "<group>"; };
 		38FD79AA1C8546BC00EB2130 /* test.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = test.m; sourceTree = "<group>"; };
+		38FD79AC1C8547E400EB2130 /* test.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = test.plist; sourceTree = "<group>"; };
+		38FD79AE1C8547F300EB2130 /* test.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = test.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -156,7 +154,6 @@
 		38FD799C1C85467600EB2130 /* Classes */ = {
 			isa = PBXGroup;
 			children = (
-				38FD799D1C85467600EB2130 /* 新泰和APP说明0.jpg */,
 				38FD79A91C8546BC00EB2130 /* test.h */,
 				38FD79AA1C8546BC00EB2130 /* test.m */,
 			);
@@ -184,7 +181,7 @@
 		38FD79A11C85467600EB2130 /* Plists */ = {
 			isa = PBXGroup;
 			children = (
-				38FD79A21C85467600EB2130 /* 新泰和APP说明0.jpg */,
+				38FD79AC1C8547E400EB2130 /* test.plist */,
 			);
 			path = Plists;
 			sourceTree = "<group>";
@@ -192,7 +189,7 @@
 		38FD79A31C85467600EB2130 /* Xibs */ = {
 			isa = PBXGroup;
 			children = (
-				38FD79A41C85467600EB2130 /* 新泰和APP说明0.jpg */,
+				38FD79AE1C8547F300EB2130 /* test.xib */,
 			);
 			path = Xibs;
 			sourceTree = "<group>";
@@ -303,10 +300,9 @@
 				38FD79791C8542B300EB2130 /* LaunchScreen.storyboard in Resources */,
 				38FD79761C8542B300EB2130 /* Assets.xcassets in Resources */,
 				38FD79741C8542B300EB2130 /* Main.storyboard in Resources */,
-				38FD79A71C85467600EB2130 /* 新泰和APP说明0.jpg in Resources */,
+				38FD79AD1C8547E400EB2130 /* test.plist in Resources */,
 				38FD79A61C85467600EB2130 /* 新泰和APP说明0.jpg in Resources */,
-				38FD79A81C85467600EB2130 /* 新泰和APP说明0.jpg in Resources */,
-				38FD79A51C85467600EB2130 /* 新泰和APP说明0.jpg in Resources */,
+				38FD79AF1C8547F300EB2130 /* test.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
