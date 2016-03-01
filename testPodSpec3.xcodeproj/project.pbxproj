@@ -15,6 +15,11 @@
 		38FD79791C8542B300EB2130 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 38FD79771C8542B300EB2130 /* LaunchScreen.storyboard */; };
 		38FD79841C8542B300EB2130 /* testPodSpec3Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 38FD79831C8542B300EB2130 /* testPodSpec3Tests.m */; };
 		38FD798F1C8542B300EB2130 /* testPodSpec3UITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 38FD798E1C8542B300EB2130 /* testPodSpec3UITests.m */; };
+		38FD79A51C85467600EB2130 /* 新泰和APP说明0.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 38FD799D1C85467600EB2130 /* 新泰和APP说明0.jpg */; };
+		38FD79A61C85467600EB2130 /* 新泰和APP说明0.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 38FD79A01C85467600EB2130 /* 新泰和APP说明0.jpg */; };
+		38FD79A71C85467600EB2130 /* 新泰和APP说明0.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 38FD79A21C85467600EB2130 /* 新泰和APP说明0.jpg */; };
+		38FD79A81C85467600EB2130 /* 新泰和APP说明0.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 38FD79A41C85467600EB2130 /* 新泰和APP说明0.jpg */; };
+		38FD79AB1C8546BC00EB2130 /* test.m in Sources */ = {isa = PBXBuildFile; fileRef = 38FD79AA1C8546BC00EB2130 /* test.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +56,12 @@
 		38FD798A1C8542B300EB2130 /* testPodSpec3UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = testPodSpec3UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		38FD798E1C8542B300EB2130 /* testPodSpec3UITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = testPodSpec3UITests.m; sourceTree = "<group>"; };
 		38FD79901C8542B300EB2130 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		38FD799D1C85467600EB2130 /* 新泰和APP说明0.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "新泰和APP说明0.jpg"; sourceTree = "<group>"; };
+		38FD79A01C85467600EB2130 /* 新泰和APP说明0.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "新泰和APP说明0.jpg"; sourceTree = "<group>"; };
+		38FD79A21C85467600EB2130 /* 新泰和APP说明0.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "新泰和APP说明0.jpg"; sourceTree = "<group>"; };
+		38FD79A41C85467600EB2130 /* 新泰和APP说明0.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "新泰和APP说明0.jpg"; sourceTree = "<group>"; };
+		38FD79A91C8546BC00EB2130 /* test.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = test.h; sourceTree = "<group>"; };
+		38FD79AA1C8546BC00EB2130 /* test.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = test.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,6 +92,8 @@
 		38FD795D1C8542B300EB2130 = {
 			isa = PBXGroup;
 			children = (
+				38FD799C1C85467600EB2130 /* Classes */,
+				38FD799E1C85467600EB2130 /* Resources */,
 				38FD79681C8542B300EB2130 /* testPodSpec3 */,
 				38FD79821C8542B300EB2130 /* testPodSpec3Tests */,
 				38FD798D1C8542B300EB2130 /* testPodSpec3UITests */,
@@ -138,6 +151,50 @@
 				38FD79901C8542B300EB2130 /* Info.plist */,
 			);
 			path = testPodSpec3UITests;
+			sourceTree = "<group>";
+		};
+		38FD799C1C85467600EB2130 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				38FD799D1C85467600EB2130 /* 新泰和APP说明0.jpg */,
+				38FD79A91C8546BC00EB2130 /* test.h */,
+				38FD79AA1C8546BC00EB2130 /* test.m */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		38FD799E1C85467600EB2130 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				38FD799F1C85467600EB2130 /* Images */,
+				38FD79A11C85467600EB2130 /* Plists */,
+				38FD79A31C85467600EB2130 /* Xibs */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		38FD799F1C85467600EB2130 /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				38FD79A01C85467600EB2130 /* 新泰和APP说明0.jpg */,
+			);
+			path = Images;
+			sourceTree = "<group>";
+		};
+		38FD79A11C85467600EB2130 /* Plists */ = {
+			isa = PBXGroup;
+			children = (
+				38FD79A21C85467600EB2130 /* 新泰和APP说明0.jpg */,
+			);
+			path = Plists;
+			sourceTree = "<group>";
+		};
+		38FD79A31C85467600EB2130 /* Xibs */ = {
+			isa = PBXGroup;
+			children = (
+				38FD79A41C85467600EB2130 /* 新泰和APP说明0.jpg */,
+			);
+			path = Xibs;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -246,6 +303,10 @@
 				38FD79791C8542B300EB2130 /* LaunchScreen.storyboard in Resources */,
 				38FD79761C8542B300EB2130 /* Assets.xcassets in Resources */,
 				38FD79741C8542B300EB2130 /* Main.storyboard in Resources */,
+				38FD79A71C85467600EB2130 /* 新泰和APP说明0.jpg in Resources */,
+				38FD79A61C85467600EB2130 /* 新泰和APP说明0.jpg in Resources */,
+				38FD79A81C85467600EB2130 /* 新泰和APP说明0.jpg in Resources */,
+				38FD79A51C85467600EB2130 /* 新泰和APP说明0.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -271,6 +332,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				38FD79711C8542B300EB2130 /* ViewController.m in Sources */,
+				38FD79AB1C8546BC00EB2130 /* test.m in Sources */,
 				38FD796E1C8542B300EB2130 /* AppDelegate.m in Sources */,
 				38FD796B1C8542B300EB2130 /* main.m in Sources */,
 			);
@@ -498,6 +560,7 @@
 				38FD79951C8542B300EB2130 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		38FD79961C8542B300EB2130 /* Build configuration list for PBXNativeTarget "testPodSpec3Tests" */ = {
 			isa = XCConfigurationList;
@@ -506,6 +569,7 @@
 				38FD79981C8542B300EB2130 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		38FD79991C8542B300EB2130 /* Build configuration list for PBXNativeTarget "testPodSpec3UITests" */ = {
 			isa = XCConfigurationList;
@@ -514,6 +578,7 @@
 				38FD799B1C8542B300EB2130 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
